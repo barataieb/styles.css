@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+   
+   <div class="section">
+      <h1>welcome to my profile </h1>
+    </div>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,16 +23,28 @@
 
       
       </table>
-  
-      
-      
-      
+  <br    
       
     </nav>
     <main>
       <div id="About">
+        
+        <table>
+        <tr>
 
-        <h2>Name: bara taieb __  Age: 17  __location: tunisia </h2>
+          <td>hi my name is bara taieb  </td>
+          </tr>
+          <tr>
+          <td>i m 17 years old </td>
+        </tr>
+        <tr>  
+        <td>learning web devolpment </td>
+        </tr>
+        <tr>
+        <td>interseted in sciece </td>
+        </tr>
+      </table> 
+      
       </div>
       <div id="resume">
         <ul>
@@ -76,9 +92,10 @@
   p {
     color: rgb(124, 124, 175);
     roboto.  }
-  h2 {
+  table {
     color:darkgray;
     font: sans-serif;
+    font-size:xx-large;
   }
   h3 {
     color: rgb(179, 144, 144);
@@ -115,7 +132,7 @@ p {
   padding: 1rem;
 }
 
-p:first-child {
+p {
   margin-bottom: -1rem;
 }
 id="resume"t {
@@ -129,4 +146,51 @@ id="resume"t {
 }
 img {
   border: 5px solid #555;
+}
+::placeholder { 
+  color: red;
+  opacity: 1; 
+  background-color: aqua;
+}
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+body {
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 300;
+}
+.section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg1 {
+  background-color: #ccc;
+}
+.bg2 {
+  background-color: #333;
+}
+h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  margin: 0;
+}
+.revealUp {
+  opacity: 0;
+  visibility: hidden;
+}
+.spacer {
+  height: 50vh;
+  background-color: #000;
 }
